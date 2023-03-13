@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: orchid;
 }
 .hero{
     position:relative;
@@ -50,7 +49,7 @@ span{
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: aqua;
+    background-color:gold;
     
 }
 .about-text{
@@ -89,13 +88,17 @@ span{
     font-size: 29px;
     text-transform: capitalize;
     margin-left: 20px;
+    justify-content: center;
+    display:flex;
+
 }
 .skills ul li {
-    color: #000;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font: size 25px;;
 }
 .contact{
     color: white;
@@ -107,7 +110,20 @@ span{
 .contact ul li{ 
     line-height: 0.8;
     background-attachment: fixed;
-
-
-
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: blue;
+}
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );;
+}
+.logo{
+    position: fixed;
+    top:0%;
+    left:0%;
 }
